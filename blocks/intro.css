@@ -27,14 +27,16 @@
     margin-right: 25%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .intro {
         margin-left: 2%;
         margin-right: 2%;
     }
 
     .intro__title {
-        font-size: 45px;
+        font-size: 32px;
+        margin-top: 15%;
+        margin-bottom: 13%;
     }
 
     .intro__cite {
