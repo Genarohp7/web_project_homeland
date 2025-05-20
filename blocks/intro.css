@@ -1,0 +1,51 @@
+.intro {
+    margin-left: 11.5%;
+    margin-right: 20%;
+}
+
+.intro__title {
+    font-size: 54px;
+    font-weight: 900;
+}
+
+.intro__cite {
+    margin-right: 20%;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.intro__cite-author {
+    text-align: right;
+    margin-right: 20%;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.intro__text {
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 25%;
+}
+
+@media screen and (max-width: 768px) {
+    .intro {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .intro__title {
+        font-size: 45px;
+    }
+
+    .intro__cite {
+    margin-right: 0;
+    }
+
+    .intro__cite-author {
+    margin-right: 0;
+    }
+
+    .intro__text {
+        margin-right: 0;
+    }
+}
