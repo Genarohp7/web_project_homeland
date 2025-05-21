@@ -1,53 +1,64 @@
 .intro {
-    margin-left: 11.5%;
-    margin-right: 20%;
+  margin-left: 11.5%;
+  margin-right: 20%;
 }
 
 .intro__title {
-    font-size: 54px;
-    font-weight: 900;
+  font-size: 54px;
+  font-weight: 900;
 }
 
 .intro__cite {
-    margin-right: 20%;
-    font-size: 24px;
-    font-weight: 400;
+  margin-right: 20%;
+  font-size: 24px;
+  font-weight: 400;
 }
 
 .intro__cite-author {
-    text-align: right;
-    margin-right: 20%;
-    font-size: 24px;
-    font-weight: 400;
+  text-align: right;
+  margin-right: 20%;
+  font-size: 24px;
+  font-weight: 400;
 }
 
 .intro__text {
-    font-size: 16px;
-    font-weight: 400;
-    margin-right: 25%;
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: 25%;
 }
 
 @media screen and (max-width: 1024px) {
-    .intro {
-        margin-left: 2%;
-        margin-right: 2%;
-    }
+  .intro {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
 
-    .intro__title {
-        font-size: 32px;
-        margin-top: 15%;
-        margin-bottom: 13%;
-    }
+  .intro__title {
+    font-size: 32px;
+    margin-right: 35%;
+    margin-top: 13%;
+    margin-bottom: 10%;
+  }
 
-    .intro__cite {
+  .intro__cite {
     margin-right: 0;
-    }
+  }
 
-    .intro__cite-author {
+  .intro__cite-author {
     margin-right: 0;
-    }
+  }
 
-    .intro__text {
-        margin-right: 0;
-    }
+  .intro__text {
+    margin-right: 2.5%;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .intro__title {
+    margin-right: 10%;
+  }
+
+  .intro__text {
+    margin-right: 6%;
+  }
 }
