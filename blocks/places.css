@@ -10,11 +10,11 @@
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(5, auto);
   grid-template-areas:
-    "name   city__author"
-    "city__image  city__text"
-    "city__image  city__text"
-    "city__button  city__text"
-    " .            city__text";
+    "name  author"
+    "image  text"
+    "image  text"
+    "button  text"
+    " .     text";
   margin-bottom: 2%;
 }
 
@@ -28,14 +28,14 @@
 }
 
 /* style of author */
-.city__author {
+.places__city__city-author {
   width: 456px;
   height: 67px;
   margin-top: 3%;
-  grid-area: city__author;
+  grid-area: author;
 }
 
-.author__head {
+.places__city__city-author__author-head {
   font-family: inter;
   line-height: 100%;
   font-size: 12px;
@@ -44,7 +44,7 @@
   color: #aaaaaa;
 }
 
-.author__text {
+.places__city__city-author__author-text {
   font-family: inter;
   font-weight: 400;
   font-size: 18px;
@@ -54,7 +54,7 @@
 
 /* final de style author */
 
-.city__text {
+.places__city__city-text {
   width: 484px;
   font-family: inter;
   font-weight: 400;
@@ -62,21 +62,21 @@
   line-height: 163%;
   position: relative;
   bottom: 5%;
-  grid-area: city__text;
+  grid-area: text;
 }
 
-.city__image {
+.places__city__city-image {
   width: 460px;
   box-shadow: 10px 10px 25px 0 #000000;
-  grid-area: city__image;
+  grid-area: image;
 }
 
-.city__image:hover {
+.places__city__city-image:hover {
   background-color: #000000;
   opacity: 0.5;
 }
 
-.city__button {
+.places__city__city-button {
   width: 289px;
   height: 48px;
   position: relative;
@@ -89,10 +89,10 @@
   gap: 10px;
   border: none;
   font-family: intert;
-  grid-area: city__button;
+  grid-area: button;
 }
 
-.places__city .city__button:hover {
+.places__city .places__city__city-button:hover {
   background-image: linear-gradient(90deg, #003a7b);
 }
 
@@ -116,13 +116,13 @@
     bottom: 10%;
   }
 
-  .city__author {
+  .places__city__city-author {
     width: 100%;
     position: relative;
     bottom: 10%;
   }
 
-  .city__text {
+  .places__city__city-text {
     width: 93%;
     font-family: inter;
     font-weight: 400;
@@ -132,7 +132,7 @@
     bottom: 3%;
   }
 
-  .city__image {
+  .places__city__city-image {
     width: 95%;
   } 
 }
@@ -150,10 +150,10 @@
     grid-template-columns: repeat(1, 1fr);
     grid-template-areas:
       "name "
-      "city__author"
-      "city__image "
-      "city__text"
-      "city__button";
+      "author"
+      "image "
+      "text"
+      "button";
     margin-bottom: 30%;
   }
 
@@ -164,7 +164,7 @@
     justify-content: center;
   }
 
-  .city__author {
+  .places__city__city-author {
     width: 288px;
     height: 89px;
     bottom: 30%;
@@ -174,20 +174,20 @@
     left: 10%;
   }
 
-  .city__text {
+  .places__city__city-text {
     width: 288px;
     position: relative;
     top: 5%;
     left: 5%;
   }
 
-  .city__image {
+  .places__city__city-image {
     width: 320px;
     box-shadow: none;
     position: relative;
   }
 
-  .city__button {
+  .places__city__city-button {
     margin-top: 10%;
     position: relative;
     left: 5%;
