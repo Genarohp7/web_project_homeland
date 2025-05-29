@@ -8,13 +8,13 @@
   width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(5, auto);
+  grid-template-rows: repeat(3, auto);
   grid-template-areas:
     "name  author"
     "image  text"
-    "image  text"
+    ".      text"
     "button  text"
-    " .     text";
+    ;
   margin-bottom: 2%;
 }
 
@@ -62,6 +62,12 @@
   bottom: 5%;
   grid-area: text;
 }
+
+.text2{
+  grid-area: text2;
+}
+
+
 
 .places__city-image {
   width: 460px;
