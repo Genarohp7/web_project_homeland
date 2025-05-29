@@ -80,18 +80,18 @@
   position: relative;
   top: 40px;
   padding: 13px 20px 13px 20px;
-  background-image: linear-gradient(90deg, #0278fe, #003a7b);
+  background-image: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
   box-shadow: 5px 5px 10px 0 #000000;
   border-radius: 4px;
   color: #ffff;
   gap: 10px;
   border: none;
-  font-family: intert;
+  font-family: inter;
   grid-area: button;
 }
 
 .places__city .places__city-button:hover {
-  background: linear-gradient(90deg, #0278fe40 0%, #003a7b40 99.95%);
+  background: linear-gradient(90deg, #0278fe40 0%, #003a7b40 99.98%);
 }
 
 @media screen and (max-width: 1024px) {
