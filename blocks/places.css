@@ -10,7 +10,7 @@
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(5, auto);
   grid-template-areas:
-    "city__name   city__author"
+    "name   city__author"
     "city__image  city__text"
     "city__image  city__text"
     "city__button  city__text"
@@ -18,13 +18,13 @@
   margin-bottom: 2%;
 }
 
-.city__name {
+.places__city__city-name {
   font-family: inter;
   font-weight: 900;
   font-family: inter;
   line-height: 76px;
   font-size: 72px;
-  grid-area: city__name;
+  grid-area: name;
 }
 
 /* style of author */
@@ -109,7 +109,7 @@
     left: 0;
   }
 
-  .city__name {
+  .places__city__city-name {
     font-size: 42px;
     line-height: 46px;
     position: relative;
@@ -149,7 +149,7 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-areas:
-      "city__name "
+      "name "
       "city__author"
       "city__image "
       "city__text"
@@ -157,7 +157,7 @@
     margin-bottom: 30%;
   }
 
-  .city__name {
+  .places__city__city-name {
     font-size: 32px;
     line-height: 35px;
     display: flex;
